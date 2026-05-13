@@ -34,13 +34,13 @@ D'après l'Analyse Exploratoire des Données (EDA) :
 ## 🛠️ Installation locale
 
 ### Avec Docker (Recommandé)
-# Build de l'image
+### Build de l'image
 docker build -t getaround-api .
 
-# Lancement du container
+### Lancement du container
 docker run -p 8000:8000 getaround-api
 
 MLflow a été utilisé en phase de développement pour le suivi des expérimentations et la sélection du modèle Ridge.
 
-# L'API sera disponible sur http://localhost:8000/docs
+## L'API sera disponible sur http://localhost:8000/docs
 
