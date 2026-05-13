@@ -18,7 +18,7 @@ Un tableau de bord interactif pour explorer les données de retards et simuler l
 Une API robuste qui prédit le prix journalier suggéré pour une voiture en fonction de 14 caractéristiques techniques.
 * **Techno** : FastAPI
 * **Modèle** : Régression Ridge (entraînée via Scikit-Learn)
-* **Déploiement** : [CLIQUER ICI POUR ACCÉDER À L'API (Hugging Face)](INSÈRE_ICI_TON_LIEN_DIRECT_HUGGING_FACE/docs)
+* **Déploiement** : [CLIQUER ICI POUR ACCÉDER À L'API (Hugging Face)](https://aliciad-getaround-pricing-api.hf.space/docs)
 
 ### 3. Infrastructure & DevOps
 * **Docker** : L'API est entièrement containerisée pour assurer la reproductibilité sur n'importe quel serveur.
