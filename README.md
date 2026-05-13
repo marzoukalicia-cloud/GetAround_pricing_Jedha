@@ -11,14 +11,15 @@ GetAround est une plateforme de location de voitures entre particuliers. Pour ga
 
 ### 1. Dashboard d'Analyse (Business Intelligence)
 Un tableau de bord interactif pour explorer les données de retards et simuler l'impact des décisions stratégiques.
-* **Outil** : Streamlit: https://huggingface.co/spaces/AliciaD/getaround_dashboard
+* **Outil** : Streamlit
 * **Analyse clé** : Comparaison des flux "Connect" vs "Mobile" et calcul du taux de collision.
+* **Lien** : https://huggingface.co/spaces/AliciaD/getaround_dashboard
 
 ### 2. API de Machine Learning (Production)
 Une API robuste qui prédit le prix journalier suggéré pour une voiture en fonction de 14 caractéristiques techniques.
 * **Techno** : FastAPI
 * **Modèle** : Régression Ridge (entraînée via Scikit-Learn)
-* **Déploiement** : [CLIQUER ICI POUR ACCÉDER À L'API (Hugging Face)](https://aliciad-getaround-pricing-api.hf.space/docs)
+* **Déploiement** : https://aliciad-getaround-pricing-api.hf.space/docs
 
 ### 3. Infrastructure & DevOps
 * **Docker** : L'API est entièrement containerisée pour assurer la reproductibilité sur n'importe quel serveur.
@@ -33,10 +34,13 @@ D'après l'Analyse Exploratoire des Données (EDA) :
 ## 🛠️ Installation locale
 
 ### Avec Docker (Recommandé)
-```bash
+# Build de l'image
 docker build -t getaround-api .
-docker run -p 8000:8000 getaround-api# GetAround_pricing_Jedha
-Jedha certification project - Delay analysis and pricing API for GetAround
+
+# Lancement du container
+docker run -p 8000:8000 getaround-api
+
+MLflow a été utilisé en phase de développement pour le suivi des expérimentations et la sélection du modèle Ridge.
 
 # L'API sera disponible sur http://localhost:8000/docs
 
