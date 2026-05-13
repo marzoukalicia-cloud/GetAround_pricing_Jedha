@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/marzo/OneDrive/Bureau/dsfs39/projets/P8 getaround/dashboard/mlflow/mlruns/1/models/m-a8fdd0a9347043af916ac354abd240e9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-a8fdd0a9347043af916ac354abd240e9
+model_size_bytes: 3635
+model_uuid: m-a8fdd0a9347043af916ac354abd240e9
+prompts: null
+run_id: 117ed1529d6549bea3ea9f0a6f528785
+utc_time_created: '2026-05-13 17:25:57.341880'

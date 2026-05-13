@@ -1,0 +1,17 @@
+# Utilise une image Python officielle et légère
+FROM python:3.10-slim
+
+# Définit le dossier de travail à l'intérieur du container
+WORKDIR /app
+
+# Copie tous les fichiers de ton dossier local vers le container
+COPY . /app
+
+# Installe les librairies listées dans requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose le port 8000 (celui de ton API)
+EXPOSE 8000
+
+# Commande pour démarrer l'API quand le container se lance
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
