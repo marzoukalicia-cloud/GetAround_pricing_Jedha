@@ -11,7 +11,7 @@ GetAround est une plateforme de location de voitures entre particuliers. Pour ga
 
 ### 1. Dashboard d'Analyse (Business Intelligence)
 Un tableau de bord interactif pour explorer les données de retards et simuler l'impact des décisions stratégiques.
-* **Outil** : Streamlit
+* **Outil** : Streamlit: https://huggingface.co/spaces/AliciaD/getaround_dashboard
 * **Analyse clé** : Comparaison des flux "Connect" vs "Mobile" et calcul du taux de collision.
 
 ### 2. API de Machine Learning (Production)
